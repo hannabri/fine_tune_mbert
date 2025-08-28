@@ -10,3 +10,6 @@ That step done, the fine_tuning.py file contains functions to fine-tune and eval
 
 
 ![screenshot](results.jpeg)
+
+
+The blue diagonal shows more than 90 % accuracy for models used with the language they were fine-tuned on. When used with another language, the models performance decreases drastically. Only the model trained on German und used with Czech and vice versa still achieves around 60 % accuracy. Another interesting fact is the model fine-tuned on French language which shows 50 % accuracy when used for German. However, the German fine-tuned model shows less than 15 % accuracy when used for French. 
